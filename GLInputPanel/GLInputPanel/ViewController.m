@@ -20,7 +20,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
     /** 添加悬浮视图 */
     [self.view addSubview:self.floatView];
     [self.floatView resetPosition];
