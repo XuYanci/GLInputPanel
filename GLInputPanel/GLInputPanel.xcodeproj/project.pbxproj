@@ -1,0 +1,862 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E5309089F208FA1FE756160 /* Pods_GLInputPanel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C21F8ACAD9FCE3FDE9ED5FE9 /* Pods_GLInputPanel.framework */; };
+		ABF9EBEA04B5AA26EA706DB1 /* Pods_GLInputPanelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2353AD1A89D01522E3058446 /* Pods_GLInputPanelTests.framework */; };
+		AD7ACA071F4EEBAD00DB416B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7ACA061F4EEBAD00DB416B /* main.m */; };
+		AD7ACA0A1F4EEBAD00DB416B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7ACA091F4EEBAD00DB416B /* AppDelegate.m */; };
+		AD7ACA101F4EEBAD00DB416B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD7ACA0E1F4EEBAD00DB416B /* Main.storyboard */; };
+		AD7ACA121F4EEBAD00DB416B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD7ACA111F4EEBAD00DB416B /* Assets.xcassets */; };
+		AD7ACA151F4EEBAD00DB416B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD7ACA131F4EEBAD00DB416B /* LaunchScreen.storyboard */; };
+		AD7ACA201F4EEBAD00DB416B /* GLInputPanelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7ACA1F1F4EEBAD00DB416B /* GLInputPanelTests.m */; };
+		AD7ACA2B1F4EEBAD00DB416B /* GLInputPanelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7ACA2A1F4EEBAD00DB416B /* GLInputPanelUITests.m */; };
+		AD7ACA631F4EEC3400DB416B /* GLAlreadyPickPicVidCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7ACA3E1F4EEC3400DB416B /* GLAlreadyPickPicVidCollectionViewCell.m */; };
+		AD7ACA641F4EEC3400DB416B /* GLChatInputBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7ACA411F4EEC3400DB416B /* GLChatInputBaseView.m */; };
+		AD7ACA651F4EEC3400DB416B /* GLChatInputPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7ACA431F4EEC3400DB416B /* GLChatInputPanel.m */; };
+		AD7ACA661F4EEC3400DB416B /* GLChatInputTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7ACA451F4EEC3400DB416B /* GLChatInputTextView.m */; };
+		AD7ACA671F4EEC3400DB416B /* GLChatInputToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7ACA471F4EEC3400DB416B /* GLChatInputToolBar.m */; };
+		AD7ACA681F4EEC3400DB416B /* GLChatMsg.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7ACA491F4EEC3400DB416B /* GLChatMsg.m */; };
+		AD7ACA691F4EEC3400DB416B /* GLPickEmojCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7ACA4B1F4EEC3400DB416B /* GLPickEmojCollectionViewFlowLayout.m */; };
+		AD7ACA6A1F4EEC3400DB416B /* GLPickEmojView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7ACA4D1F4EEC3400DB416B /* GLPickEmojView.m */; };
+		AD7ACA6B1F4EEC3400DB416B /* GLPickPictureVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7ACA4F1F4EEC3400DB416B /* GLPickPictureVideoView.m */; };
+		AD7ACA6C1F4EEC3400DB416B /* GLPickPicVidThumbnailCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7ACA511F4EEC3400DB416B /* GLPickPicVidThumbnailCollectionView.m */; };
+		AD7ACA6E1F4EEC3400DB416B /* GLAssetCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7ACA571F4EEC3400DB416B /* GLAssetCollectionViewCell.m */; };
+		AD7ACA6F1F4EEC3400DB416B /* GLAssetGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7ACA591F4EEC3400DB416B /* GLAssetGridViewController.m */; };
+		AD7ACA701F4EEC3400DB416B /* GLAssetPlayBackView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7ACA5B1F4EEC3400DB416B /* GLAssetPlayBackView.m */; };
+		AD7ACA711F4EEC3400DB416B /* GLAssetPlaybackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7ACA5D1F4EEC3400DB416B /* GLAssetPlaybackViewController.m */; };
+		AD7ACA721F4EEC3400DB416B /* GLAssetViewBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7ACA5F1F4EEC3400DB416B /* GLAssetViewBrowser.m */; };
+		AD7ACA761F4EEC9600DB416B /* GoodLookFloatView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7ACA751F4EEC9600DB416B /* GoodLookFloatView.m */; };
+		AD7ACA791F4EECC500DB416B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7ACA781F4EECC500DB416B /* ViewController.m */; };
+		AD7ACA7C1F4EECE900DB416B /* UIView+CustomAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7ACA7B1F4EECE900DB416B /* UIView+CustomAutoLayout.m */; };
+		ADE34CE71F4EEF7600F10E19 /* AppDelegate+ViewControllerOpers.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE34CE61F4EEF7600F10E19 /* AppDelegate+ViewControllerOpers.m */; };
+		ADE34CEA1F4EEFA600F10E19 /* MBProgressHUD+GL.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE34CE91F4EEFA600F10E19 /* MBProgressHUD+GL.m */; };
+		ADE34CED1F4EF03D00F10E19 /* UIViewController+MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE34CEC1F4EF03D00F10E19 /* UIViewController+MBProgressHUD.m */; };
+		ADE34CF01F4EF0F700F10E19 /* GLPickPicVidViewCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE34CEF1F4EF0F700F10E19 /* GLPickPicVidViewCollectionViewCell.m */; };
+		ADE34CF21F4EF26600F10E19 /* Expression.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ADE34CF11F4EF26600F10E19 /* Expression.bundle */; };
+		ADE34CF71F4EF35400F10E19 /* 98z9qDHn3InRUvPEk4WJosjKwIFlLwci.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = ADE34CF41F4EF35400F10E19 /* 98z9qDHn3InRUvPEk4WJosjKwIFlLwci.mp4 */; };
+		ADE34CF81F4EF35400F10E19 /* fp7TDrSj5inYljljiGh9pfHAc6WjEC8j.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = ADE34CF51F4EF35400F10E19 /* fp7TDrSj5inYljljiGh9pfHAc6WjEC8j.mp4 */; };
+		ADE34CF91F4EF35400F10E19 /* kPM3iV38hVYEWZhXmHXcSM3OsIwfnnfT.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = ADE34CF61F4EF35400F10E19 /* kPM3iV38hVYEWZhXmHXcSM3OsIwfnnfT.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD7ACA1C1F4EEBAD00DB416B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD7AC9FA1F4EEBAD00DB416B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD7ACA011F4EEBAD00DB416B;
+			remoteInfo = GLInputPanel;
+		};
+		AD7ACA271F4EEBAD00DB416B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD7AC9FA1F4EEBAD00DB416B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD7ACA011F4EEBAD00DB416B;
+			remoteInfo = GLInputPanel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2353AD1A89D01522E3058446 /* Pods_GLInputPanelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GLInputPanelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31E8BB98BA04F7F195D5BC24 /* Pods-GLInputPanel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GLInputPanel.release.xcconfig"; path = "Pods/Target Support Files/Pods-GLInputPanel/Pods-GLInputPanel.release.xcconfig"; sourceTree = "<group>"; };
+		51BD5A6015782C86CCB4FD29 /* Pods-GLInputPanel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GLInputPanel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GLInputPanel/Pods-GLInputPanel.debug.xcconfig"; sourceTree = "<group>"; };
+		5684CE58A999B111E622414B /* Pods-GLInputPanelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GLInputPanelTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GLInputPanelTests/Pods-GLInputPanelTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D7C664DDD657951AF89E816 /* Pods-GLInputPanelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GLInputPanelTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GLInputPanelTests/Pods-GLInputPanelTests.release.xcconfig"; sourceTree = "<group>"; };
+		AD7ACA021F4EEBAD00DB416B /* GLInputPanel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLInputPanel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD7ACA061F4EEBAD00DB416B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD7ACA081F4EEBAD00DB416B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD7ACA091F4EEBAD00DB416B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD7ACA0F1F4EEBAD00DB416B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD7ACA111F4EEBAD00DB416B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD7ACA141F4EEBAD00DB416B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD7ACA161F4EEBAD00DB416B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD7ACA1B1F4EEBAD00DB416B /* GLInputPanelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GLInputPanelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD7ACA1F1F4EEBAD00DB416B /* GLInputPanelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLInputPanelTests.m; sourceTree = "<group>"; };
+		AD7ACA211F4EEBAD00DB416B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD7ACA261F4EEBAD00DB416B /* GLInputPanelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GLInputPanelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD7ACA2A1F4EEBAD00DB416B /* GLInputPanelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLInputPanelUITests.m; sourceTree = "<group>"; };
+		AD7ACA2C1F4EEBAD00DB416B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD7ACA3D1F4EEC3400DB416B /* GLAlreadyPickPicVidCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLAlreadyPickPicVidCollectionViewCell.h; sourceTree = "<group>"; };
+		AD7ACA3E1F4EEC3400DB416B /* GLAlreadyPickPicVidCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLAlreadyPickPicVidCollectionViewCell.m; sourceTree = "<group>"; };
+		AD7ACA3F1F4EEC3400DB416B /* GLChatInputAbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLChatInputAbleView.h; sourceTree = "<group>"; };
+		AD7ACA401F4EEC3400DB416B /* GLChatInputBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLChatInputBaseView.h; sourceTree = "<group>"; };
+		AD7ACA411F4EEC3400DB416B /* GLChatInputBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLChatInputBaseView.m; sourceTree = "<group>"; };
+		AD7ACA421F4EEC3400DB416B /* GLChatInputPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLChatInputPanel.h; sourceTree = "<group>"; };
+		AD7ACA431F4EEC3400DB416B /* GLChatInputPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLChatInputPanel.m; sourceTree = "<group>"; };
+		AD7ACA441F4EEC3400DB416B /* GLChatInputTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLChatInputTextView.h; sourceTree = "<group>"; };
+		AD7ACA451F4EEC3400DB416B /* GLChatInputTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLChatInputTextView.m; sourceTree = "<group>"; };
+		AD7ACA461F4EEC3400DB416B /* GLChatInputToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLChatInputToolBar.h; sourceTree = "<group>"; };
+		AD7ACA471F4EEC3400DB416B /* GLChatInputToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLChatInputToolBar.m; sourceTree = "<group>"; };
+		AD7ACA481F4EEC3400DB416B /* GLChatMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLChatMsg.h; sourceTree = "<group>"; };
+		AD7ACA491F4EEC3400DB416B /* GLChatMsg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLChatMsg.m; sourceTree = "<group>"; };
+		AD7ACA4A1F4EEC3400DB416B /* GLPickEmojCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLPickEmojCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		AD7ACA4B1F4EEC3400DB416B /* GLPickEmojCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLPickEmojCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		AD7ACA4C1F4EEC3400DB416B /* GLPickEmojView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLPickEmojView.h; sourceTree = "<group>"; };
+		AD7ACA4D1F4EEC3400DB416B /* GLPickEmojView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLPickEmojView.m; sourceTree = "<group>"; };
+		AD7ACA4E1F4EEC3400DB416B /* GLPickPictureVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLPickPictureVideoView.h; sourceTree = "<group>"; };
+		AD7ACA4F1F4EEC3400DB416B /* GLPickPictureVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLPickPictureVideoView.m; sourceTree = "<group>"; };
+		AD7ACA501F4EEC3400DB416B /* GLPickPicVidThumbnailCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLPickPicVidThumbnailCollectionView.h; sourceTree = "<group>"; };
+		AD7ACA511F4EEC3400DB416B /* GLPickPicVidThumbnailCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLPickPicVidThumbnailCollectionView.m; sourceTree = "<group>"; };
+		AD7ACA561F4EEC3400DB416B /* GLAssetCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLAssetCollectionViewCell.h; sourceTree = "<group>"; };
+		AD7ACA571F4EEC3400DB416B /* GLAssetCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLAssetCollectionViewCell.m; sourceTree = "<group>"; };
+		AD7ACA581F4EEC3400DB416B /* GLAssetGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLAssetGridViewController.h; sourceTree = "<group>"; };
+		AD7ACA591F4EEC3400DB416B /* GLAssetGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLAssetGridViewController.m; sourceTree = "<group>"; };
+		AD7ACA5A1F4EEC3400DB416B /* GLAssetPlayBackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLAssetPlayBackView.h; sourceTree = "<group>"; };
+		AD7ACA5B1F4EEC3400DB416B /* GLAssetPlayBackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLAssetPlayBackView.m; sourceTree = "<group>"; };
+		AD7ACA5C1F4EEC3400DB416B /* GLAssetPlaybackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLAssetPlaybackViewController.h; sourceTree = "<group>"; };
+		AD7ACA5D1F4EEC3400DB416B /* GLAssetPlaybackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLAssetPlaybackViewController.m; sourceTree = "<group>"; };
+		AD7ACA5E1F4EEC3400DB416B /* GLAssetViewBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLAssetViewBrowser.h; sourceTree = "<group>"; };
+		AD7ACA5F1F4EEC3400DB416B /* GLAssetViewBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLAssetViewBrowser.m; sourceTree = "<group>"; };
+		AD7ACA741F4EEC9600DB416B /* GoodLookFloatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodLookFloatView.h; sourceTree = "<group>"; };
+		AD7ACA751F4EEC9600DB416B /* GoodLookFloatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodLookFloatView.m; sourceTree = "<group>"; };
+		AD7ACA771F4EECC500DB416B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AD7ACA781F4EECC500DB416B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AD7ACA7A1F4EECE900DB416B /* UIView+CustomAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CustomAutoLayout.h"; sourceTree = "<group>"; };
+		AD7ACA7B1F4EECE900DB416B /* UIView+CustomAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CustomAutoLayout.m"; sourceTree = "<group>"; };
+		AD7ACA7D1F4EEDA200DB416B /* GLInputPanelPrefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLInputPanelPrefix.pch; sourceTree = "<group>"; };
+		ADE34CE51F4EEF7600F10E19 /* AppDelegate+ViewControllerOpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+ViewControllerOpers.h"; sourceTree = "<group>"; };
+		ADE34CE61F4EEF7600F10E19 /* AppDelegate+ViewControllerOpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+ViewControllerOpers.m"; sourceTree = "<group>"; };
+		ADE34CE81F4EEFA600F10E19 /* MBProgressHUD+GL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+GL.h"; sourceTree = "<group>"; };
+		ADE34CE91F4EEFA600F10E19 /* MBProgressHUD+GL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+GL.m"; sourceTree = "<group>"; };
+		ADE34CEB1F4EF03D00F10E19 /* UIViewController+MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MBProgressHUD.h"; sourceTree = "<group>"; };
+		ADE34CEC1F4EF03D00F10E19 /* UIViewController+MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MBProgressHUD.m"; sourceTree = "<group>"; };
+		ADE34CEE1F4EF0F700F10E19 /* GLPickPicVidViewCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLPickPicVidViewCollectionViewCell.h; sourceTree = "<group>"; };
+		ADE34CEF1F4EF0F700F10E19 /* GLPickPicVidViewCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLPickPicVidViewCollectionViewCell.m; sourceTree = "<group>"; };
+		ADE34CF11F4EF26600F10E19 /* Expression.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Expression.bundle; sourceTree = "<group>"; };
+		ADE34CF41F4EF35400F10E19 /* 98z9qDHn3InRUvPEk4WJosjKwIFlLwci.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 98z9qDHn3InRUvPEk4WJosjKwIFlLwci.mp4; sourceTree = "<group>"; };
+		ADE34CF51F4EF35400F10E19 /* fp7TDrSj5inYljljiGh9pfHAc6WjEC8j.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = fp7TDrSj5inYljljiGh9pfHAc6WjEC8j.mp4; sourceTree = "<group>"; };
+		ADE34CF61F4EF35400F10E19 /* kPM3iV38hVYEWZhXmHXcSM3OsIwfnnfT.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = kPM3iV38hVYEWZhXmHXcSM3OsIwfnnfT.mp4; sourceTree = "<group>"; };
+		C21F8ACAD9FCE3FDE9ED5FE9 /* Pods_GLInputPanel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GLInputPanel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD7AC9FF1F4EEBAD00DB416B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E5309089F208FA1FE756160 /* Pods_GLInputPanel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7ACA181F4EEBAD00DB416B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF9EBEA04B5AA26EA706DB1 /* Pods_GLInputPanelTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7ACA231F4EEBAD00DB416B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D2B2A6E0FC5BEE626A81478 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51BD5A6015782C86CCB4FD29 /* Pods-GLInputPanel.debug.xcconfig */,
+				31E8BB98BA04F7F195D5BC24 /* Pods-GLInputPanel.release.xcconfig */,
+				5684CE58A999B111E622414B /* Pods-GLInputPanelTests.debug.xcconfig */,
+				6D7C664DDD657951AF89E816 /* Pods-GLInputPanelTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AD7AC9F91F4EEBAD00DB416B = {
+			isa = PBXGroup;
+			children = (
+				AD7ACA041F4EEBAD00DB416B /* GLInputPanel */,
+				AD7ACA1E1F4EEBAD00DB416B /* GLInputPanelTests */,
+				AD7ACA291F4EEBAD00DB416B /* GLInputPanelUITests */,
+				AD7ACA031F4EEBAD00DB416B /* Products */,
+				1D2B2A6E0FC5BEE626A81478 /* Pods */,
+				E2AC587EFC3D13DDBCD14020 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AD7ACA031F4EEBAD00DB416B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD7ACA021F4EEBAD00DB416B /* GLInputPanel.app */,
+				AD7ACA1B1F4EEBAD00DB416B /* GLInputPanelTests.xctest */,
+				AD7ACA261F4EEBAD00DB416B /* GLInputPanelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD7ACA041F4EEBAD00DB416B /* GLInputPanel */ = {
+			isa = PBXGroup;
+			children = (
+				ADE34CF31F4EF35400F10E19 /* Videos */,
+				AD7ACA771F4EECC500DB416B /* ViewController.h */,
+				AD7ACA781F4EECC500DB416B /* ViewController.m */,
+				AD7ACA741F4EEC9600DB416B /* GoodLookFloatView.h */,
+				AD7ACA751F4EEC9600DB416B /* GoodLookFloatView.m */,
+				AD7ACA3B1F4EEC3400DB416B /* Library */,
+				AD7ACA081F4EEBAD00DB416B /* AppDelegate.h */,
+				AD7ACA091F4EEBAD00DB416B /* AppDelegate.m */,
+				ADE34CE51F4EEF7600F10E19 /* AppDelegate+ViewControllerOpers.h */,
+				ADE34CE61F4EEF7600F10E19 /* AppDelegate+ViewControllerOpers.m */,
+				ADE34CEB1F4EF03D00F10E19 /* UIViewController+MBProgressHUD.h */,
+				ADE34CEC1F4EF03D00F10E19 /* UIViewController+MBProgressHUD.m */,
+				ADE34CE81F4EEFA600F10E19 /* MBProgressHUD+GL.h */,
+				ADE34CE91F4EEFA600F10E19 /* MBProgressHUD+GL.m */,
+				AD7ACA7A1F4EECE900DB416B /* UIView+CustomAutoLayout.h */,
+				AD7ACA7B1F4EECE900DB416B /* UIView+CustomAutoLayout.m */,
+				AD7ACA7D1F4EEDA200DB416B /* GLInputPanelPrefix.pch */,
+				ADE34CF11F4EF26600F10E19 /* Expression.bundle */,
+				AD7ACA0E1F4EEBAD00DB416B /* Main.storyboard */,
+				AD7ACA111F4EEBAD00DB416B /* Assets.xcassets */,
+				AD7ACA131F4EEBAD00DB416B /* LaunchScreen.storyboard */,
+				AD7ACA161F4EEBAD00DB416B /* Info.plist */,
+				AD7ACA051F4EEBAD00DB416B /* Supporting Files */,
+			);
+			path = GLInputPanel;
+			sourceTree = "<group>";
+		};
+		AD7ACA051F4EEBAD00DB416B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD7ACA061F4EEBAD00DB416B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD7ACA1E1F4EEBAD00DB416B /* GLInputPanelTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD7ACA1F1F4EEBAD00DB416B /* GLInputPanelTests.m */,
+				AD7ACA211F4EEBAD00DB416B /* Info.plist */,
+			);
+			path = GLInputPanelTests;
+			sourceTree = "<group>";
+		};
+		AD7ACA291F4EEBAD00DB416B /* GLInputPanelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD7ACA2A1F4EEBAD00DB416B /* GLInputPanelUITests.m */,
+				AD7ACA2C1F4EEBAD00DB416B /* Info.plist */,
+			);
+			path = GLInputPanelUITests;
+			sourceTree = "<group>";
+		};
+		AD7ACA3B1F4EEC3400DB416B /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				AD7ACA3C1F4EEC3400DB416B /* GLInputPanel */,
+				AD7ACA551F4EEC3400DB416B /* GLMediaBrowser */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		AD7ACA3C1F4EEC3400DB416B /* GLInputPanel */ = {
+			isa = PBXGroup;
+			children = (
+				ADE34CEE1F4EF0F700F10E19 /* GLPickPicVidViewCollectionViewCell.h */,
+				ADE34CEF1F4EF0F700F10E19 /* GLPickPicVidViewCollectionViewCell.m */,
+				AD7ACA3D1F4EEC3400DB416B /* GLAlreadyPickPicVidCollectionViewCell.h */,
+				AD7ACA3E1F4EEC3400DB416B /* GLAlreadyPickPicVidCollectionViewCell.m */,
+				AD7ACA3F1F4EEC3400DB416B /* GLChatInputAbleView.h */,
+				AD7ACA401F4EEC3400DB416B /* GLChatInputBaseView.h */,
+				AD7ACA411F4EEC3400DB416B /* GLChatInputBaseView.m */,
+				AD7ACA421F4EEC3400DB416B /* GLChatInputPanel.h */,
+				AD7ACA431F4EEC3400DB416B /* GLChatInputPanel.m */,
+				AD7ACA441F4EEC3400DB416B /* GLChatInputTextView.h */,
+				AD7ACA451F4EEC3400DB416B /* GLChatInputTextView.m */,
+				AD7ACA461F4EEC3400DB416B /* GLChatInputToolBar.h */,
+				AD7ACA471F4EEC3400DB416B /* GLChatInputToolBar.m */,
+				AD7ACA481F4EEC3400DB416B /* GLChatMsg.h */,
+				AD7ACA491F4EEC3400DB416B /* GLChatMsg.m */,
+				AD7ACA4A1F4EEC3400DB416B /* GLPickEmojCollectionViewFlowLayout.h */,
+				AD7ACA4B1F4EEC3400DB416B /* GLPickEmojCollectionViewFlowLayout.m */,
+				AD7ACA4C1F4EEC3400DB416B /* GLPickEmojView.h */,
+				AD7ACA4D1F4EEC3400DB416B /* GLPickEmojView.m */,
+				AD7ACA4E1F4EEC3400DB416B /* GLPickPictureVideoView.h */,
+				AD7ACA4F1F4EEC3400DB416B /* GLPickPictureVideoView.m */,
+				AD7ACA501F4EEC3400DB416B /* GLPickPicVidThumbnailCollectionView.h */,
+				AD7ACA511F4EEC3400DB416B /* GLPickPicVidThumbnailCollectionView.m */,
+				AD7ACA541F4EEC3400DB416B /* Model */,
+			);
+			path = GLInputPanel;
+			sourceTree = "<group>";
+		};
+		AD7ACA541F4EEC3400DB416B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AD7ACA551F4EEC3400DB416B /* GLMediaBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				AD7ACA561F4EEC3400DB416B /* GLAssetCollectionViewCell.h */,
+				AD7ACA571F4EEC3400DB416B /* GLAssetCollectionViewCell.m */,
+				AD7ACA581F4EEC3400DB416B /* GLAssetGridViewController.h */,
+				AD7ACA591F4EEC3400DB416B /* GLAssetGridViewController.m */,
+				AD7ACA5A1F4EEC3400DB416B /* GLAssetPlayBackView.h */,
+				AD7ACA5B1F4EEC3400DB416B /* GLAssetPlayBackView.m */,
+				AD7ACA5C1F4EEC3400DB416B /* GLAssetPlaybackViewController.h */,
+				AD7ACA5D1F4EEC3400DB416B /* GLAssetPlaybackViewController.m */,
+				AD7ACA5E1F4EEC3400DB416B /* GLAssetViewBrowser.h */,
+				AD7ACA5F1F4EEC3400DB416B /* GLAssetViewBrowser.m */,
+			);
+			path = GLMediaBrowser;
+			sourceTree = "<group>";
+		};
+		ADE34CF31F4EF35400F10E19 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				ADE34CF41F4EF35400F10E19 /* 98z9qDHn3InRUvPEk4WJosjKwIFlLwci.mp4 */,
+				ADE34CF51F4EF35400F10E19 /* fp7TDrSj5inYljljiGh9pfHAc6WjEC8j.mp4 */,
+				ADE34CF61F4EF35400F10E19 /* kPM3iV38hVYEWZhXmHXcSM3OsIwfnnfT.mp4 */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		E2AC587EFC3D13DDBCD14020 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C21F8ACAD9FCE3FDE9ED5FE9 /* Pods_GLInputPanel.framework */,
+				2353AD1A89D01522E3058446 /* Pods_GLInputPanelTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD7ACA011F4EEBAD00DB416B /* GLInputPanel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD7ACA2F1F4EEBAD00DB416B /* Build configuration list for PBXNativeTarget "GLInputPanel" */;
+			buildPhases = (
+				B7961B9320FB5E0D90C0F97D /* [CP] Check Pods Manifest.lock */,
+				AD7AC9FE1F4EEBAD00DB416B /* Sources */,
+				AD7AC9FF1F4EEBAD00DB416B /* Frameworks */,
+				AD7ACA001F4EEBAD00DB416B /* Resources */,
+				166AB097B072E8A0AE4F4A61 /* [CP] Embed Pods Frameworks */,
+				9B79E71392A7F8A294040AA4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GLInputPanel;
+			productName = GLInputPanel;
+			productReference = AD7ACA021F4EEBAD00DB416B /* GLInputPanel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD7ACA1A1F4EEBAD00DB416B /* GLInputPanelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD7ACA321F4EEBAD00DB416B /* Build configuration list for PBXNativeTarget "GLInputPanelTests" */;
+			buildPhases = (
+				8A1D2479FC3DEE97CB8979BA /* [CP] Check Pods Manifest.lock */,
+				AD7ACA171F4EEBAD00DB416B /* Sources */,
+				AD7ACA181F4EEBAD00DB416B /* Frameworks */,
+				AD7ACA191F4EEBAD00DB416B /* Resources */,
+				0A7A1ADD74A2BD5096D4F479 /* [CP] Embed Pods Frameworks */,
+				872DACBA88FE0242500F4ADF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD7ACA1D1F4EEBAD00DB416B /* PBXTargetDependency */,
+			);
+			name = GLInputPanelTests;
+			productName = GLInputPanelTests;
+			productReference = AD7ACA1B1F4EEBAD00DB416B /* GLInputPanelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD7ACA251F4EEBAD00DB416B /* GLInputPanelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD7ACA351F4EEBAD00DB416B /* Build configuration list for PBXNativeTarget "GLInputPanelUITests" */;
+			buildPhases = (
+				AD7ACA221F4EEBAD00DB416B /* Sources */,
+				AD7ACA231F4EEBAD00DB416B /* Frameworks */,
+				AD7ACA241F4EEBAD00DB416B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD7ACA281F4EEBAD00DB416B /* PBXTargetDependency */,
+			);
+			name = GLInputPanelUITests;
+			productName = GLInputPanelUITests;
+			productReference = AD7ACA261F4EEBAD00DB416B /* GLInputPanelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD7AC9FA1F4EEBAD00DB416B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Yanci;
+				TargetAttributes = {
+					AD7ACA011F4EEBAD00DB416B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					AD7ACA1A1F4EEBAD00DB416B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD7ACA011F4EEBAD00DB416B;
+					};
+					AD7ACA251F4EEBAD00DB416B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD7ACA011F4EEBAD00DB416B;
+					};
+				};
+			};
+			buildConfigurationList = AD7AC9FD1F4EEBAD00DB416B /* Build configuration list for PBXProject "GLInputPanel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD7AC9F91F4EEBAD00DB416B;
+			productRefGroup = AD7ACA031F4EEBAD00DB416B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD7ACA011F4EEBAD00DB416B /* GLInputPanel */,
+				AD7ACA1A1F4EEBAD00DB416B /* GLInputPanelTests */,
+				AD7ACA251F4EEBAD00DB416B /* GLInputPanelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD7ACA001F4EEBAD00DB416B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE34CF81F4EF35400F10E19 /* fp7TDrSj5inYljljiGh9pfHAc6WjEC8j.mp4 in Resources */,
+				AD7ACA151F4EEBAD00DB416B /* LaunchScreen.storyboard in Resources */,
+				ADE34CF21F4EF26600F10E19 /* Expression.bundle in Resources */,
+				AD7ACA121F4EEBAD00DB416B /* Assets.xcassets in Resources */,
+				ADE34CF91F4EF35400F10E19 /* kPM3iV38hVYEWZhXmHXcSM3OsIwfnnfT.mp4 in Resources */,
+				ADE34CF71F4EF35400F10E19 /* 98z9qDHn3InRUvPEk4WJosjKwIFlLwci.mp4 in Resources */,
+				AD7ACA101F4EEBAD00DB416B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7ACA191F4EEBAD00DB416B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7ACA241F4EEBAD00DB416B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A7A1ADD74A2BD5096D4F479 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GLInputPanelTests/Pods-GLInputPanelTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		166AB097B072E8A0AE4F4A61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GLInputPanel/Pods-GLInputPanel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		872DACBA88FE0242500F4ADF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GLInputPanelTests/Pods-GLInputPanelTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A1D2479FC3DEE97CB8979BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9B79E71392A7F8A294040AA4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GLInputPanel/Pods-GLInputPanel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7961B9320FB5E0D90C0F97D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD7AC9FE1F4EEBAD00DB416B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7ACA791F4EECC500DB416B /* ViewController.m in Sources */,
+				AD7ACA6E1F4EEC3400DB416B /* GLAssetCollectionViewCell.m in Sources */,
+				AD7ACA681F4EEC3400DB416B /* GLChatMsg.m in Sources */,
+				AD7ACA691F4EEC3400DB416B /* GLPickEmojCollectionViewFlowLayout.m in Sources */,
+				AD7ACA631F4EEC3400DB416B /* GLAlreadyPickPicVidCollectionViewCell.m in Sources */,
+				AD7ACA661F4EEC3400DB416B /* GLChatInputTextView.m in Sources */,
+				AD7ACA721F4EEC3400DB416B /* GLAssetViewBrowser.m in Sources */,
+				AD7ACA641F4EEC3400DB416B /* GLChatInputBaseView.m in Sources */,
+				AD7ACA651F4EEC3400DB416B /* GLChatInputPanel.m in Sources */,
+				ADE34CE71F4EEF7600F10E19 /* AppDelegate+ViewControllerOpers.m in Sources */,
+				AD7ACA711F4EEC3400DB416B /* GLAssetPlaybackViewController.m in Sources */,
+				ADE34CF01F4EF0F700F10E19 /* GLPickPicVidViewCollectionViewCell.m in Sources */,
+				AD7ACA701F4EEC3400DB416B /* GLAssetPlayBackView.m in Sources */,
+				AD7ACA7C1F4EECE900DB416B /* UIView+CustomAutoLayout.m in Sources */,
+				AD7ACA6C1F4EEC3400DB416B /* GLPickPicVidThumbnailCollectionView.m in Sources */,
+				AD7ACA6B1F4EEC3400DB416B /* GLPickPictureVideoView.m in Sources */,
+				ADE34CEA1F4EEFA600F10E19 /* MBProgressHUD+GL.m in Sources */,
+				AD7ACA761F4EEC9600DB416B /* GoodLookFloatView.m in Sources */,
+				AD7ACA671F4EEC3400DB416B /* GLChatInputToolBar.m in Sources */,
+				AD7ACA0A1F4EEBAD00DB416B /* AppDelegate.m in Sources */,
+				AD7ACA071F4EEBAD00DB416B /* main.m in Sources */,
+				ADE34CED1F4EF03D00F10E19 /* UIViewController+MBProgressHUD.m in Sources */,
+				AD7ACA6F1F4EEC3400DB416B /* GLAssetGridViewController.m in Sources */,
+				AD7ACA6A1F4EEC3400DB416B /* GLPickEmojView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7ACA171F4EEBAD00DB416B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7ACA201F4EEBAD00DB416B /* GLInputPanelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7ACA221F4EEBAD00DB416B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7ACA2B1F4EEBAD00DB416B /* GLInputPanelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD7ACA1D1F4EEBAD00DB416B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD7ACA011F4EEBAD00DB416B /* GLInputPanel */;
+			targetProxy = AD7ACA1C1F4EEBAD00DB416B /* PBXContainerItemProxy */;
+		};
+		AD7ACA281F4EEBAD00DB416B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD7ACA011F4EEBAD00DB416B /* GLInputPanel */;
+			targetProxy = AD7ACA271F4EEBAD00DB416B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD7ACA0E1F4EEBAD00DB416B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD7ACA0F1F4EEBAD00DB416B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD7ACA131F4EEBAD00DB416B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD7ACA141F4EEBAD00DB416B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD7ACA2D1F4EEBAD00DB416B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD7ACA2E1F4EEBAD00DB416B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD7ACA301F4EEBAD00DB416B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51BD5A6015782C86CCB4FD29 /* Pods-GLInputPanel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/GLInputPanel/GLInputPanelPrefix.pch";
+				INFOPLIST_FILE = GLInputPanel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caigoutong.66.GLInputPanel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AD7ACA311F4EEBAD00DB416B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31E8BB98BA04F7F195D5BC24 /* Pods-GLInputPanel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/GLInputPanel/GLInputPanelPrefix.pch";
+				INFOPLIST_FILE = GLInputPanel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caigoutong.66.GLInputPanel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AD7ACA331F4EEBAD00DB416B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5684CE58A999B111E622414B /* Pods-GLInputPanelTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GLInputPanelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caigoutong.66.GLInputPanelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GLInputPanel.app/GLInputPanel";
+			};
+			name = Debug;
+		};
+		AD7ACA341F4EEBAD00DB416B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D7C664DDD657951AF89E816 /* Pods-GLInputPanelTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GLInputPanelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caigoutong.66.GLInputPanelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GLInputPanel.app/GLInputPanel";
+			};
+			name = Release;
+		};
+		AD7ACA361F4EEBAD00DB416B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GLInputPanelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caigoutong.66.GLInputPanelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GLInputPanel;
+			};
+			name = Debug;
+		};
+		AD7ACA371F4EEBAD00DB416B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GLInputPanelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caigoutong.66.GLInputPanelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GLInputPanel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD7AC9FD1F4EEBAD00DB416B /* Build configuration list for PBXProject "GLInputPanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD7ACA2D1F4EEBAD00DB416B /* Debug */,
+				AD7ACA2E1F4EEBAD00DB416B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD7ACA2F1F4EEBAD00DB416B /* Build configuration list for PBXNativeTarget "GLInputPanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD7ACA301F4EEBAD00DB416B /* Debug */,
+				AD7ACA311F4EEBAD00DB416B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD7ACA321F4EEBAD00DB416B /* Build configuration list for PBXNativeTarget "GLInputPanelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD7ACA331F4EEBAD00DB416B /* Debug */,
+				AD7ACA341F4EEBAD00DB416B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD7ACA351F4EEBAD00DB416B /* Build configuration list for PBXNativeTarget "GLInputPanelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD7ACA361F4EEBAD00DB416B /* Debug */,
+				AD7ACA371F4EEBAD00DB416B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD7AC9FA1F4EEBAD00DB416B /* Project object */;
+}

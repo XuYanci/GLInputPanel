@@ -1,0 +1,6 @@
+framework module Pods_GLInputPanelTests {
+  umbrella header "Pods-GLInputPanelTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

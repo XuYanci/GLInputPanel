@@ -1,0 +1,21 @@
+# Uncomment this line to define a global platform for your project
+workspace ’GLInputPanel.xcworkspace'
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+inhibit_all_warnings!
+# Uncomment this line if you're using Swift
+ use_frameworks!
+
+def pods
+    pod 'Masonry', '~> 1.0.0'                # 自动布局框架
+    pod 'MBProgressHUD', '~> 0.9.2'          # 提示框
+ end
+
+target ‘GLInputPanel’ do
+    pods
+end
+
+target ‘GLInputPanelTests’ do
+
+end
+
